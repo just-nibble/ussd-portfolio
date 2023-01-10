@@ -16,7 +16,7 @@ def index(request):
         response = ""
 
         if text == "":
-            response = "CON Welcome to Princewill's ussd portfolio \n choose a skill to see projects"
+            response = "CON Welcome to Princewill's ussd portfolio \n choose a skill to see projects\n"
             response += "1. Python \n"
             response += "2. Golang \n"
             response += "3. Rust \n"
@@ -24,7 +24,7 @@ def index(request):
             response += "5. END \n"
 
         elif text == "1":
-            response = "CON Select an option to see details"
+            response = "CON Select an option to see details\n"
             response += "1. MintEngine \n"
             response += "2. Marketier \n"
             response += "3. GiftCarded \n"
@@ -39,7 +39,7 @@ def index(request):
             response = "END Create Giftcards for popular cryptocurrency\ndetails:(pending)"
 
         elif text == "2":
-            response = "CON Select an option to see details"
+            response = "CON Select an option to see details\n"
             response += "1. Go-notif \n"
             response += "2. LinuxAuto \n"
         
@@ -53,7 +53,7 @@ def index(request):
             response = "END No projects yet"
 
         elif text == "4":
-            response = "CON Select an option to see details"
+            response = "CON Select an option to see details\n"
             response += "1. EDMS \n"
         
         elif text == "4*1":
